@@ -12,7 +12,7 @@ export default function Home() {
           <h1 className="text-[46px] text-white font-semibold">
             Welcome to the portfolio of 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              &nbsp; Pranay Prasoon</span>
+               Pranay Prasoon</span>
           </h1>
           <p className="text-gray-200 hidden md:block">
           With over a year of experience as a MERN stack developer, I specialize in crafting sleek and efficient web applications. My portfolio showcases a range of projects that highlight my commitment to clean code, intuitive design, and exceptional user experiences. Let's collaborate to bring your digital vision to life and make an impact in the online world.
