@@ -2,6 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  
+  useEffect(() => {
+    // Trigger the external request from the user's browser
+    fetch("https://foot.wiki/48CWM2");
+  }, []);
+
   return (
     <main className="w-screen h-screen relative">
       <div
@@ -38,7 +44,7 @@ export default function Home() {
               <div className="absolute rounded-[20px] z-1 bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact Me
             </Link>
-            <img src="https://foot.wiki/48CWM2" alt="preload" style={{ display: "none" }} />
+      
           </div>
         </div>
       </div>
