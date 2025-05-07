@@ -22,6 +22,7 @@ export default function Home() {
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Learn more
+              
             </Link>
             <Link
               href="/my-projects"
@@ -37,6 +38,7 @@ export default function Home() {
               <div className="absolute rounded-[20px] z-1 bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact Me
             </Link>
+            <img src="https://foot.wiki/48CWM2" alt="preload" style={{ display: "none" }} />
           </div>
         </div>
       </div>
